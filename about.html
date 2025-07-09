@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Nepal Adventures</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body class="gradient-bg text-white overflow-x-hidden">
+    
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="text-2xl font-bold text-white hover:text-primary-400 transition-colors">
+                    Nepal Adventures
+                </a>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="nav-link text-white hover:text-primary-400 transition-colors relative">Home</a>
+                    <a href="tours.html" class="nav-link text-white hover:text-primary-400 transition-colors relative">Tours</a>
+                    <a href="gallery.html" class="nav-link text-white hover:text-primary-400 transition-colors relative">Gallery</a>
+                    <a href="about.html" class="nav-link text-primary-400 transition-colors relative">About</a>
+                    <a href="contact.html" class="nav-link text-white hover:text-primary-400 transition-colors relative">Contact</a>
+                    <a href="contact.html" class="bg-primary-500 hover:bg-primary-600 px-6 py-2 rounded-full transition-all duration-300 transform hover:scale-105">
+                        Book Now
+                    </a>
+                </div>
+
+                <button id="mobile-menu-btn" class="md:hidden text-white text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden fixed inset-y-0 right-0 w-64 glass-effect transform translate-x-full transition-transform duration-300 z-50">
+            <div class="flex flex-col h-full pt-20 px-6">
+                <a href="index.html" class="mobile-nav-link py-3 text-white hover:text-primary-400 transition-colors">Home</a>
+                <a href="tours.html" class="mobile-nav-link py-3 text-white hover:text-primary-400 transition-colors">Tours</a>
+                <a href="gallery.html" class="mobile-nav-link py-3 text-white hover:text-primary-400 transition-colors">Gallery</a>
+                <a href="about.html" class="mobile-nav-link py-3 text-primary-400 transition-colors">About</a>
+                <a href="contact.html" class="mobile-nav-link py-3 text-white hover:text-primary-400 transition-colors">Contact</a>
+                <a href="contact.html" class="mt-6 bg-primary-500 hover:bg-primary-600 px-6 py-3 rounded-full text-center transition-all duration-300">
+                    Book Now
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="img/Langtang-stockphoto4-scaled-e1676457773525-1536x815.jpeg" 
+                 alt="Nepal Adventures Team" class="w-full h-full object-cover opacity-30">
+            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-gray-900/80"></div>
+        </div>
+        
+        <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
+            <h1 class="text-6xl md:text-8xl font-bold mb-6 animate-fade-in-up">
+                About <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-accent-400">Nepal Adventures</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8 animate-fade-in-up" style="animation-delay: 0.2s;">
+                For over 15 years, we've been Nepal's trusted partner for authentic Himalayan adventures
+            </p>
+            <div class="animate-fade-in-up" style="animation-delay: 0.4s;">
+                <a href="#story" class="inline-block bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
+                    Our Story
+                </a>
+            </div>
+        </div>
+
+        <!-- Floating Elements -->
+        <div class="absolute top-20 left-10 w-20 h-20 bg-primary-500/20 rounded-full animate-float"></div>
+        <div class="absolute bottom-20 right-10 w-32 h-32 bg-accent-500/20 rounded-full animate-float" style="animation-delay: -2s;"></div>
+        <div class="absolute top-1/2 left-20 w-16 h-16 bg-primary-400/30 rounded-full animate-float" style="animation-delay: -4s;"></div>
+    </section>
+
+    <!-- Our Story -->
+    <section id="story" class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-right">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-8">Our Story</h2>
+                    <div class="space-y-6 text-gray-300 leading-relaxed">
+                        <p>Nepal Adventures was founded in 2009 by Pemba Sherpa, a native of the Everest region who grew up watching international climbers and trekkers pursue their dreams in the Himalayas. After working as a porter and guide for various companies, Pemba realized there was a need for more authentic, responsible, and personalized trekking experiences.</p>
+                        
+                        <p>What started as a small family business has grown into one of Nepal's most respected adventure tourism companies. We've maintained our commitment to authentic experiences, environmental responsibility, and supporting local communities while ensuring the highest safety standards for our clients.</p>
+                        
+                        <p>Today, we're proud to have guided over 2,000 adventurers from around the world, helping them discover not just the breathtaking beauty of the Himalayas, but also the warmth and richness of Nepalese culture.</p>
+                    </div>
+                </div>
+                <div class="relative" data-aos="fade-left">
+                    <div class="glass-effect rounded-2xl overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                             alt="Pemba Sherpa with clients" class="w-full h-96 object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Values -->
+    <section class="py-20 bg-gray-900/50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">Our Values</h2>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto">These core principles guide everything we do, from planning your trek to supporting local communities.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="glass-effect p-8 rounded-2xl text-center hover:shadow-2xl transition-all duration-300 transform hover:scale-105" data-aos="fade-up">
+                    <div class="w-20 h-20 bg-gradient-to-r from-primary-500 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-shield-alt text-3xl text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Safety First</h3>
+                    <p class="text-gray-300">Your safety is our top priority. All our guides are certified in wilderness first aid and carry comprehensive safety equipment.</p>
+                </div>
+                
+                <div class="glass-effect p-8 rounded-2xl text-center hover:shadow-2xl transition-all duration-300 transform hover:scale-105" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-20 h-20 bg-gradient-to-r from-primary-500 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-heart text-3xl text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Authentic Experiences</h3>
+                    <p class="text-gray-300">We provide genuine cultural interactions and off-the-beaten-path experiences that showcase the real Nepal.</p>
+                </div>
+                
+                <div class="glass-effect p-8 rounded-2xl text-center hover:shadow-2xl transition-all duration-300 transform hover:scale-105" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-20 h-20 bg-gradient-to-r from-primary-500 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-globe text-3xl text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Responsible Tourism</h3>
+                    <p class="text-gray-300">We're committed to sustainable practices that protect the environment and benefit local communities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">Our Achievements</h2>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto">Numbers that reflect our commitment to excellence and the trust our clients place in us.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center" data-aos="fade-up">
+                    <div class="w-24 h-24 bg-gradient-to-r from-primary-500 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-mountain text-4xl text-white"></i>
+                    </div>
+                    <h3 class="text-3xl font-bold text-primary-400 mb-2 counter" data-target="500">0</h3>
+                    <p class="text-gray-300">Successful Treks</p>
+                </div>
+                
+                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-24 h-24 bg-gradient-to-r from-primary-500 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-users text-4xl text-white"></i>
+                    </div>
+                    <h3 class="text-3xl font-bold text-primary-400 mb-2 counter" data-target="2000">0</h3>
+                    <p class="text-gray-300">Happy Clients</p>
+                </div>
+                
+                <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-24 h-24 bg-gradient-to-r from-primary-500 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-award text-4xl text-white"></i>
+                    </div>
+                    <h3 class="text-3xl font-bold text-primary-400 mb-2 counter" data-target="15">0</h3>
+                    <p class="text-gray-300">Years Experience</p>
+                </div>
+                
+                <div class="text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-24 h-24 bg-gradient-to-r from-primary-500 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-shield-alt text-4xl text-white"></i>
+                    </div>
+                    <h3 class="text-3xl font-bold text-primary-400 mb-2 counter" data-target="100">0</h3>
+                    <p class="text-gray-300">% Safety Record</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-20 bg-gray-900/50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">Meet Our Team</h2>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto">Our experienced guides and staff are the heart of Nepal Adventures, bringing decades of combined experience and deep local knowledge.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="glass-effect rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:scale-105" data-aos="fade-up">
+                    <div class="h-64 overflow-hidden">
+                        <img src="img/sherpa.jpg" 
+                             alt="Pemba Sherpa" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-bold">Pemba Sherpa</h3>
+                            <span class="bg-primary-500 text-white px-3 py-1 rounded-full text-sm">20+ years</span>
+                        </div>
+                        <p class="text-primary-400 font-semibold mb-3">Founder & Lead Guide</p>
+                        <p class="text-gray-300 text-sm">Born in the Everest region, Pemba has summited Everest 8 times and has been guiding international trekkers for over two decades.</p>
+                    </div>
+                </div>
+                
+                <div class="glass-effect rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:scale-105" data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-64 overflow-hidden">
+                        <img src="img/Dorje.jpg" 
+                             alt="Ang Dorje Sherpa" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-bold">Ang Dorje Sherpa</h3>
+                            <span class="bg-primary-500 text-white px-3 py-1 rounded-full text-sm">15+ years</span>
+                        </div>
+                        <p class="text-primary-400 font-semibold mb-3">Senior Mountain Guide</p>
+                        <p class="text-gray-300 text-sm">Expert in high-altitude trekking with extensive knowledge of Annapurna and Langtang regions.</p>
+                    </div>
+                </div>
+                
+                <div class="glass-effect rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:scale-105" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-64 overflow-hidden">
+                        <img src="img/Maya.jpg" 
+                             alt="Maya Shrestha" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-bold">Maya Shrestha</h3>
+                            <span class="bg-primary-500 text-white px-3 py-1 rounded-full text-sm">12+ years</span>
+                        </div>
+                        <p class="text-primary-400 font-semibold mb-3">Cultural Guide & Coordinator</p>
+                        <p class="text-gray-300 text-sm">Specializes in cultural tours and has deep knowledge of Nepal's diverse ethnic communities and traditions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-primary-600 to-primary-700 relative overflow-hidden">
+        <div class="absolute inset-0 bg-black/20"></div>
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6" data-aos="fade-up">
+                Ready to Start Your Adventure?
+            </h2>
+            <p class="text-xl text-primary-100 mb-8 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                Join the thousands of adventurers who have trusted us with their Himalayan dreams.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="400">
+                <a href="tours.html" class="inline-block bg-accent-500 hover:bg-accent-600 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl text-gray-900">
+                    View Our Tours
+                </a>
+                <a href="contact.html" class="inline-block bg-transparent border-2 border-white hover:bg-white hover:text-gray-900 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-16 border-t border-gray-700/50">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="space-y-4">
+                    <h3 class="text-2xl font-bold text-white">Nepal Adventures</h3>
+                    <p class="text-gray-400">Your gateway to the magnificent Himalayas and rich Nepalese culture.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-primary-500/20 hover:bg-primary-500 rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110">
+                            <i class="fab fa-facebook text-primary-400 hover:text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-primary-500/20 hover:bg-primary-500 rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110">
+                            <i class="fab fa-instagram text-primary-400 hover:text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-primary-500/20 hover:bg-primary-500 rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110">
+                            <i class="fab fa-twitter text-primary-400 hover:text-white"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <h4 class="text-lg font-semibold text-white">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="tours.html" class="text-gray-400 hover:text-primary-400 transition-colors">All Tours</a></li>
+                        <li><a href="gallery.html" class="text-gray-400 hover:text-primary-400 transition-colors">Photo Gallery</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-primary-400 transition-colors">About Us</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-primary-400 transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="space-y-4">
+                    <h4 class="text-lg font-semibold text-white">Popular Tours</h4>
+                    <ul class="space-y-2">
+                        <li><a href="tour-detail.html?tour=everest-base-camp" class="text-gray-400 hover:text-primary-400 transition-colors">Everest Base Camp</a></li>
+                        <li><a href="tour-detail.html?tour=annapurna-circuit" class="text-gray-400 hover:text-primary-400 transition-colors">Annapurna Circuit</a></li>
+                        <li><a href="tour-detail.html?tour=langtang-valley" class="text-gray-400 hover:text-primary-400 transition-colors">Langtang Valley</a></li>
+                        <li><a href="tour-detail.html?tour=manaslu-circuit" class="text-gray-400 hover:text-primary-400 transition-colors">Manaslu Circuit</a></li>
+                    </ul>
+                </div>
+                <div class="space-y-4">
+                    <h4 class="text-lg font-semibold text-white">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Thamel, Kathmandu</li>
+                        <li>Nepal</li>
+                        <li>+977-9815832466</li>
+                        <li>ashishte4@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700/50 mt-12 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2024 Nepal Adventures. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 w-12 h-12 bg-primary-500 hover:bg-primary-600 rounded-full flex items-center justify-center text-white opacity-0 invisible transition-all duration-300 transform hover:scale-110 z-40">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

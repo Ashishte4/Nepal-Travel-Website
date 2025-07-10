@@ -85,7 +85,7 @@
                 title: "Trekker at Thorong La Pass",
                 category: "adventure",
                 location: "Annapurna Region",
-                image: "img/Thorong-La-Pass.jpg",
+                image: "img/Trekker at thorong pass.jpg",
                 featured: false,
             },
             {
